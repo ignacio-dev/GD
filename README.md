@@ -87,4 +87,30 @@ Takes in a string and parses it for URL use by removing or replacing special cha
 
 ****
 #### Classes
-All classes are located inside the _classes_ folder at the _back_ root.
+All classes are located inside the _classes_ folder at the _back_ root. These files are used to render front-end elements into the website by using the _render()_ method which is shared by all classes and called within the constructor.
+
+There is an exception to this which is the _Db_ class. This file does not render any element on the website, but rather collects and handles data from the _json_ folder.
+
+##### **> Head**
+Namespace that contains the classes in charge of performing the logic needed to render elements inside the _head_ HTML tags.
+* __PageTitle__: Will render the _title_ HTML tags with the corresponding title.
+* __StyleSheet($name)__: Will render a stylesheet link pointing to the name of the file specified in the $name parameter.
+
+Example:
+```php
+// URL -> ?menu=illustration&display=trencar-el-silenci
+
+new Head\PageTitle();
+new Head\StyleSheet('main');
+new Head\StyleSheet($menu);
+
+```
+... with the following URL parameters
+``` ?menu=illustration&display=trencar-el-silenci```
+
+... will be rendered as:
+```HTML
+<title>GD | Gerardo Dominguez - Trencar El Silenci</title>
+<link rel="stylesheet" href="front/css/main.css">
+<link rel="stylesheet" href="front/css/illustration.css">
+```
