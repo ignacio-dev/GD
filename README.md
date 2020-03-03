@@ -105,7 +105,8 @@ new Head\StyleSheet('main');
 new Head\StyleSheet($menu);
 
 ```
-... with the following URL parameters
+... with the following URL parameters:
+
 ``` ?menu=illustration&display=trencar-el-silenci```
 
 ... will be rendered as:
