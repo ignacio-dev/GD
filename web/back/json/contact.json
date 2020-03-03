@@ -1,0 +1,30 @@
+{
+	"name": {
+		"en": "Name",
+		"es": "Nombre"
+	},
+	"email": {
+		"en": "Email",
+		"es": "Email"
+	},
+	"phone": {
+		"en": "Phone (optional)",
+		"es": "Teléfono (opcional)"
+	},
+	"message": {
+		"en": "Message",
+		"es": "Mensaje"
+	},
+	"send-button": {
+		"en": "Send",
+		"es": "Enviar"
+	},
+	"captcha-error": {
+		"en": "ERROR: You must tick this box.",
+		"es": "ERROR: Debes marcar esta casilla."
+	},
+	"success-message": {
+		"en": "Message sent succesfully!",
+		"es": "¡Mensaje enviado!"
+	}
+}

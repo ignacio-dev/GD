@@ -1,0 +1,75 @@
+	@-webkit-keyframes slideIn {
+		0%   { left: 450px; }
+		100% { left: 0px; }
+	}
+	
+	@-webkit-keyframes slideOut {
+		0%   { left: 0px; }
+		100% { left: 450px; }
+	}
+	
+	@-moz-keyframes slideIn {
+		0%   { left: 450px; }
+		100% { left: 0px; }
+	}
+	@-moz-keyframes slideOut {
+		0%   { left: 0px; }
+		100% { left: 450px; }
+	}
+	
+	@-o-keyframes slideIn {
+		0%   { left: 450px; }
+		100% { left: 0px; }
+	}
+	@-o-keyframes slideOut {
+		0%   { left: 0px; }
+		100% { left: 450px; }
+	}
+
+@keyframes slideIn {
+	0%   { left: 450px; }
+	100% { left: 0px; }
+}
+@keyframes slideOut {
+	0%   { left: 0px; }
+	100% { left: 450px; }
+}
+
+.slideIn {
+	position: relative;
+	-webkit-animation: slideIn;
+	   -moz-animation: slideIn;
+		 -o-animation: slideIn;
+			animation: slideIn;
+	-webkit-animation-iteration-count: 1;
+	   -moz-animation-iteration-count: 1;
+	     -o-animation-iteration-count: 1;
+			animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;	
+	   -moz-animation-fill-mode: forwards;
+		 -o-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+}
+
+.slideOut {
+	position: relative;
+	-webkit-animation: slideOut;
+	   -moz-animation: slideOut;
+		 -o-animation: slideOut;
+			animation: slideOut;
+	-webkit-animation-iteration-count: 1;
+	   -moz-animation-iteration-count: 1;
+	     -o-animation-iteration-count: 1;
+			animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;	
+	   -moz-animation-fill-mode: forwards;
+		 -o-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+}
+
+/* DISABLE ANIMATIONS WHEN MENUS ARE ON TOP */
+@media (min-width: 1070px) {
+	.slideOut, .slideIn {
+		position: static;
+	}
+}

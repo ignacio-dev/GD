@@ -1,0 +1,16 @@
+[
+	{
+		"keyVal": "en",
+		"label": {
+			"en": "ENGLISH",
+			"es": "ENGLISH"
+		}
+	},
+	{
+		"keyVal": "es",
+		"label": {
+			"en": "ESPAÑOL",
+			"es": "ESPAÑOL"
+		}
+	}
+]

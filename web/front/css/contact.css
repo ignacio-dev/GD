@@ -1,0 +1,238 @@
+form {
+	flex-grow: 1;
+	background: #F0F0F0;
+	padding: 100px 15px;	
+	min-height: calc(100vh - 175px);
+}
+
+form * {
+	color: #8D8480;
+	text-transform: uppercase;
+}
+
+/* PLACEHOLDERS */
+::-webkit-input-placeholder {
+	color: #B8B8B8;
+}
+
+:-ms-input-placeholder {
+	color: #B8B8B8;
+}
+
+::placeholder {
+	color: #B8B8B8;
+}
+
+/* FORM ITEMS */
+input, textarea, label, form #validation-area, form p {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 500px;
+}
+
+input {
+	color: #8D8480;
+	background: transparent;
+	border-bottom: 1px solid #DDD;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+input:focus {
+	border-bottom: 1px solid #B8B8B8;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: #BBB;
+}
+
+input:focus:-ms-input-placeholder {
+	color: #BBB;
+}
+
+input:focus::placeholder {
+	color: #BBB;
+}
+
+input, label {
+	padding: 5px 0;
+}
+
+label {
+	color: #B8B8B8;
+}
+
+label.active {
+	color: #8D8480;
+}
+
+textarea {
+	font-size: 1.1em;
+	color: #8D8480;
+	min-height: 200px;
+	padding: 5px;
+	resize: none;
+	text-transform: none;
+}
+
+textarea:focus {
+	border: 1px solid #B8B8B8;
+}
+
+input, textarea, form p {
+	margin-bottom: 40px;
+}
+
+form #validation-area {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	   -ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+textarea, button {
+	border: 1px solid #DDD;
+	background: #F6F3F2;
+}
+
+button {
+	height: 77px;
+	width: 77px;
+	cursor: pointer;
+}
+
+button:hover {
+	border-color: #B8B8B8;
+	text-decoration: underline;
+}
+
+/* ERRORS */
+form.submitted *:invalid {
+	border-color: #A10D59;
+}
+
+.g-recaptcha.error {
+	border: 1px solid #A10D59;
+}
+
+p.error {
+	color: #A10D59;
+}
+
+/* SUCCESS MESSAGE */
+#success-message {
+	margin-top: 25px;
+	text-align: center;
+}
+
+#success-message:after {
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	color: green;
+	content: "\f058";
+	margin-left: 10px;
+	
+}
+
+/* MEDIA QUERIES *//
+@media (max-width: 730px) {
+	form {
+		padding: 35px;
+	}
+
+	input, textarea, label, form #validation-area, form p {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 690px) {
+	form {
+		padding: 60px;
+	}
+}
+
+@media (max-width: 608px) {
+	form {
+		padding: 70px;
+	}
+
+	#validation-area {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		   -ms-flex-direction: column;
+		       flex-direction: column;
+	}
+
+	button {
+		width: 100%;
+	}
+
+	.g-recaptcha {
+		margin-bottom: 35px;
+	}
+}
+
+@media (max-width: 500px) {
+	.g-recaptcha, input, textarea, form p {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 472px) {
+	form {
+		padding: 35px 0;
+	}
+
+	/*textarea {
+		min-height: 200px;
+	}*/
+}
+
+@media (max-width: 414px) {
+	form {
+		padding: 30px 15px;
+		overflow-x: hidden;
+	}
+
+	.g-recaptcha {
+		-webkit-transform: scale(1.17);
+		        transform: scale(1.17);
+		-webkit-transform-origin: 0 0;
+		        transform-origin: 0 0;
+		margin-bottom: 40px;
+		margin-top: -10px;
+    }
+}
+
+@media (max-width: 375px) {
+	.g-recaptcha {
+		-webkit-transform: scale(1.04);
+		        transform: scale(1.04);
+		-webkit-transform-origin: 0 0;
+		        transform-origin: 0 0;
+		margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 363px) {
+	form {
+		font-size: .9em;
+	}
+	.g-recaptcha {
+		-webkit-transform: scale(.86);
+		        transform: scale(.86);
+		-webkit-transform-origin: 0 0;
+		        transform-origin: 0 0;
+		margin-bottom: 20px;
+    }
+
+	button {
+		height: 67px;
+		margin-bottom: 0;
+	}
+}

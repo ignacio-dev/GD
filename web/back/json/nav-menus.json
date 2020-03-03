@@ -1,0 +1,23 @@
+[
+	{
+		"keyVal": "graphic-design",
+		"label": {
+			"en": "GRAPHIC DESIGN",
+			"es": "DISEÑO GRÁFICO"
+		}
+	},
+	{
+		"keyVal": "illustration",
+		"label": {
+			"en": "ILLUSTRATION",
+			"es": "ILUSTRACIÓN"
+		}
+	},
+	{
+		"keyVal": "contact",
+		"label": {
+			"en": "CONTACT",
+			"es": "CONTACTO"
+		}
+	}
+]

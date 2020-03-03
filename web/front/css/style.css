@@ -1,0 +1,155 @@
+/* CORP #A10D59 ::: GREY #8D8480 */
+
+/* GLOBAL STYLES */
+@font-face {
+	font-family:'FuturaStd-Book';
+	src: url("../fonts/FuturaStd-Book.eot");
+	src: url("../fonts/FuturaStd-Book.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/FuturaStd-Book.woff2") format("woff2"),
+		 url("../fonts/FuturaStd-Book.woff") format("woff"),
+		 url("../fonts/FuturaStd-Book.ttf") format("truetype");
+}
+
+* {
+	     -o-transition: all .35s ease, font-size 0s, line-height 0s;
+	   -moz-transition: all .35s ease, font-size 0s, line-height 0s;
+	-webkit-transition: all .35s ease, font-size 0s, line-height 0s;
+			transition: all .35s ease, font-size 0s, line-height 0s;
+}
+
+*:focus {
+	outline: 1px dotted #A10D59;
+	outline-offset: 5px;
+}
+
+*::-moz-selection {
+	background: #A10D59;
+	color: #FFF;
+}
+
+*::selection {
+	background: #A10D59;
+	color: #FFF;
+}
+
+body {
+	font-family: 'FuturaStd-Book';
+	color: #8D8480;
+	/*font-size: 13px;*/
+	font-size: .84em;
+	line-height: 1.2em;
+	background: #FFF;
+}
+
+body, header .flex-wrap {
+	padding: 35px;
+	max-width: 1235px; /* (300PX X 4MODULES) + 35PX FROM PADDING */
+	margin: 0 auto;
+}
+
+a:hover {
+	color: #A10D59;
+}
+
+a.active {
+	color: #A10D59;
+}
+
+a img:hover {
+	opacity: .6!important;	
+}
+
+cite {
+	font-style: italic;
+}
+
+main {
+	margin-top: 105px;
+}
+
+.separator:before {
+	content: " | ";
+	margin: 0 10px;
+}
+
+/* FLEX WRAP */
+.flex-wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+}
+
+/* GRID */
+main .column img {
+	width: 100%;
+	height: auto;
+	display: block;
+	cursor: pointer;
+	opacity: 1;
+	will-change: opacity;
+
+}
+
+/* QUOTES */
+.quote {
+	position: relative;
+}
+
+.quote img {
+	visibility: hidden;
+}
+
+blockquote {
+	position: absolute;
+	text-align: center;
+	padding: 35px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	    -webkit-box-orient: vertical;
+	 -webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	   -ms-flex-pack: center;
+	 justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+blockquote p {
+	margin-bottom: 1em;
+}
+
+/* FIGURE */
+main figure figcaption {
+	padding-top: 35px;
+}
+
+main figure img {
+	display: block;
+	max-width: 100%;
+	margin-top: 35px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 500px), (max-height: 414px) and (max-width: 850px) {
+	body, header .flex-wrap {
+		padding: 15px;
+	}
+
+	main {
+		margin-top: 85px; /* 100PX FROM SMALLER HEADER - 15PX FROM SMALLER PADDING */
+	}
+
+	main figure figcaption {
+		padding-top: 15px;
+	}
+
+	main figure img {
+		margin-top: 15px;
+	}
+}

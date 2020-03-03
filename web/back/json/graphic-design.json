@@ -1,0 +1,155 @@
+{
+	"sets": [
+		{
+			"name": "Arca de Sabiduría",
+			"role": {
+				"en": "Book series design",
+				"es": "Diseño de colección"
+			},
+			"series": true,
+			"client": "Editorial EDAF",
+			"award": null
+		},
+		{
+			"name": "La Sombra de la Palabra",
+			"role": {
+				"en": "Book series design",
+				"es": "Diseño de colección"
+			},
+			"series": true,
+			"client": "Grupo Anaya",
+			"award": null
+		},
+		{
+			"name": "EDE",
+			"role": {
+				"en": "Book series design",
+				"es": "Diseño de colección"
+			},
+			"series": true,
+			"client": "ESIC Editorial",
+			"award": null
+		},
+		{
+			"name": "Voz y Tiempo (serie novela negra)",
+			"role": {
+				"en": "Book series design",
+				"es": "Diseño de colección"
+			},
+			"series": true,
+			"client": "Editorial EDAF",
+			"award": {
+				"en": "Black Novel Award, Ayto. Getafe",
+				"es": "Premio Novela Negra, Ayto. Getafe"
+			}
+		},
+		{
+			"name": "Voz y Tiempo (serie novela blanca)",
+			"role": {
+				"en": "Book series design",
+				"es": "Diseño de colección"
+			},
+			"series": true,
+			"client": "Editorial EDAF",
+			"award": null
+		},
+		{
+			"name": "Nueva Biblioteca EDAF",
+			"role": {
+				"en": "Book series design",
+				"es": "Diseño de colección"
+			},
+			"series": true,
+			"client": "Editorial EDAF",
+			"award": null
+		},
+		{
+			"name": "Revista Bloc",
+			"role": {
+				"en": "Magazine design",
+				"es": "Diseño de revista"
+			},
+			"series": true,
+			"client": "Revista Internacional de Arte y Literatura Infantil",
+			"award": null
+		},
+		{
+			"name": "Inglés para tu trabajo",
+			"role": {
+				"en": "Design and illustration",
+				"es": "Diseño e ilustración"
+			},
+			"series": true,
+			"client": "ESIC - Inserta (Fundación <abbr title=\"Organicación Nacional de Ciegos Españoles\">ONCE</abbr>)<br>European Union (European Social Fund)",
+			"award": null
+		},
+		{
+			"name": "Osho",
+			"role": {
+				"en": "Book series design",
+				"es": "Diseño de colección"
+			},
+			"series": true,
+			"client": "Editorial EDAF",
+			"award": null
+		},
+		{
+			"name": "Divulgación",
+			"role": {
+				"en": "Book series design",
+				"es": "Diseño de colección"
+			},
+			"series": true,
+			"client": "ESIC Editorial",
+			"award": null
+		},
+		{
+			"name": "El Jinete Azul",
+			"role": {
+				"en": "Logo design",
+				"es": "Diseño de logotipo"
+			},
+			"series": false,
+			"client": "Ediciones El Jinete Azul",
+			"award": null
+		},
+		{
+			"name": "Arca de Sabiduría (logo)",
+			"role": {
+				"en": "Logo design",
+				"es": "Diseño de logotipo"
+			},
+			"series": false,
+			"client": "Editorial EDAF",
+			"award": null
+		},
+		{
+			"name": "Visual Comunicación",
+			"role": {
+				"en": "Logo design, implementation and website design",
+				"es": "Diseño de logotipo, implementación y diseño web"
+			},
+			"series": false,
+			"client": "Visual Comunicación",
+			"award": null
+		},
+		{
+			"name": "EDAF logo",
+			"role": {
+				"en": "Logo design",
+				"es": "Diseño de logotipo"
+			},
+			"series": false,
+			"client": "Editorial EDAF",
+			"award": null
+		}
+	],
+
+	"labels": {
+		"client": {
+			"en": "Client",
+			"es": "Cliente"
+		}
+	}
+	
+}

@@ -1,0 +1,136 @@
+{
+	"sets": [
+		{
+			"title": "La sorpresa de la noche",
+			"authors": [
+				{
+					"name": "Joan Manuel Gisbert",
+					"gender": "male"
+				}
+			],
+			"series": null,
+			"client": "Pearson Alhambra"
+		},
+		{
+			"title": "Relatos para respirar",
+			"authors": [
+				{
+					"name": "Ana Martínez",
+					"gender": "female"
+				},
+				{
+					"name": "Loreto Rodríguez de Rivera",
+					"gender": "female"
+				}
+			],
+			"series": null,
+			"client": "Ediciones Laude"
+		},
+		{
+			"title": "Las respuestas de Sandra",
+			"authors": [
+				{
+					"name": "Fátima de la Jara",
+					"gender": "female"
+				}
+			],
+			"series": "Entrenubes",
+			"client": "Grupo Anaya"
+		},
+		{
+			"title": "Las preguntas de Pascal",
+			"authors": [
+				{
+					"name": "Fátima de la Jara",
+					"gender": "female"
+				}
+			],
+			"series": "Entrenubes",
+			"client": "Grupo Anaya"
+		},
+		{
+			"title": "Las dudas de María Lince",
+			"authors": [
+				{
+					"name": "Fátima de la Jara",
+					"gender": "female"
+				}
+			],
+			"series": "Entrenubes",
+			"client": "Grupo Anaya"
+		},
+		{
+			"title": "Las ocurrencias de Leonarda",
+			"authors": [
+				{
+					"name": "Fátima de la Jara",
+					"gender": "female"
+				}
+			],
+			"series": "Entrenubes",
+			"client": "Grupo Anaya"
+		},
+		{
+			"title": "Historias de animales que te emocionarán",
+			"authors": [
+				{
+					"name": "Fátima de la Jara",
+					"gender": "female"
+				}
+			],
+			"series": null,
+			"client": "Editorial Bruño"
+		},
+		{
+			"title": "Trencar el silenci",
+			"authors": [
+				{
+					"name": "Imma Amadeo",
+					"gender": "female"
+				},
+				{
+					"name": "Jordi Martínez",
+					"gender": "male"
+				}
+			],
+			"series": null,
+			"client": "Ediciones Laude"
+		},
+		{
+			"title": "Novela gráfica (inédita)",
+			"authors": [
+				{
+					"name": "Gerardo Domínguez",
+					"gender": "male"
+				}
+			],
+			"series": null,
+			"client": null
+		},
+		{
+			"title": "Inglés para tu trabajo",
+			"authors": null,
+			"series": null,
+			"client": "ESIC - Inserta (Fundación <abbr title=\"Organicación Nacional de Ciegos Españoles\">ONCE</abbr>)<br>Unión Europea (Fondo Social Europeo)"
+		}
+	],
+	
+	"labels": {
+		"title": {
+			"en": "Title",
+			"es": "Título"
+		},
+		"authors": {
+			"en": ["Author", "Authors"],
+			"es": ["Autor", "Autora", "Autores", "Autoras"]
+		},
+		"series": {
+			"en": "Book series",
+			"es": "Colección"
+		},
+		"client": {
+			"en": "Client",
+			"es": "Cliente"
+		}
+	}
+}
