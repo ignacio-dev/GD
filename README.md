@@ -98,12 +98,9 @@ Namespace that contains the classes in charge of performing the logic needed to 
 
 Example:
 ```php
-// URL -> ?menu=illustration&display=trencar-el-silenci
-
 new Head\PageTitle();
 new Head\StyleSheet('main');
 new Head\StyleSheet($menu);
-
 ```
 ... with the following URL parameters:
 
